@@ -15,22 +15,30 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <picture>
-      srcset="<img src="images/museum-480x.jpg 480w,
-                   images/musem-960.jpg 960w,
-                    images/museum-1440.jpg 1440w"
-                    media="(min-width: 960px)">
-                    
+ <img
 
-                    <source
-                    srcset="images/museum-320x.jpg 320w,
-                    images/museum-480.jpg 640w,
-                  images/museum-720.jpg 720w" 
-                    media="(min-width: 959px)">
-      <img src="images/museum-960x.jpg" alt="A museum with a big glass dome">
+ srcset="
+     images/museum-320x.jpg 320w,
+     images/museum-480x.jpg 480w, 
+      images/museum-640x.jpg 640w,
+      images/museum-720x.jpg 720w,
+      images/museum-800x.jpg 800w,
+      images/museum-960x.jpg 960w,
+      images/museum-1280x.jpg 1280w,
+      images/museum-1440x.jpg 1440w,
+      images/museum-1600x.jpg 1600w,
+      images/museum-1920x.jpg 1920w,
+      images/museum-2160x.jpg 2160w,
+      images/museum-2400x.jpg 2400w,
+      images/museum-2880x.jpg 2880w
+      "
+      sizes="(max-width: 959px) 100vw, (min-width: 960px) 50vw"
+      src="images/museum-960x.jpg"
+      alt="Museum with paintings on the wall" >
 
-    
-    </picture>
+   
+   
+
 
   </header>
 </body>
