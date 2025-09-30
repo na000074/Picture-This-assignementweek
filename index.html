@@ -16,7 +16,19 @@
       <h4>My Really Cool Blog Post</h4>
     </div>
     <picture>
-      srcset="<img src=" alt="">
+      srcset="<img src="images/museum-480x.jpg 480w,
+                   images/musem-960.jpg 960w,
+                    images/museum-1440.jpg 1440w"
+                    media="(min-width: 960px)">
+                    
+
+                    <source
+                    srcset="images/museum-320x.jpg 320w,
+                    images/museum-480.jpg 640w,
+                  images/museum-720.jpg 720w" 
+                    media="(min-width: 959px)">
+      <img src="images/museum-960x.jpg" alt="A museum with a big glass dome">
+
     
     </picture>
 
